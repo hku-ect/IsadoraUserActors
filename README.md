@@ -36,10 +36,16 @@ The actor will now "learn" what the minimal and maximum values are that it recei
 
 This user actor is used to connect with a [ECT ION](http://www.etcconnect.com/Products/Consoles/Eos-Family/Ion/Features.aspx) over OSC to control [Briteq Movingheads](https://briteq-lighting.com/bt-w19l10-zoom) with Isadora.
 
-### Multi OSC listenr.iua
+### Multi OSC listener.iua
 
 This user actor can be used to recieve a OSC message with multiple (9) values and will output each value to it's own user actor output.
 The actor is geared towards use with the [NATNET2OSC bridge](https://github.com/hku-ect/NatNet2OSCbridge) to split an incoming rigidbody or skeleton joint message.
+
+### Multi OSC listener PRV.iua
+
+This user actor can be used to recieve a OSC message with multiple (13) values and will output each value to it's own user actor output.
+Values: XYZ position, XYZW rotation, XYZ position velocity, XYZ rotation velocity. 
+The actor is geared towards use with the [NATNET2OSC bridge](https://github.com/hku-ect/NatNet2OSCbridge) to split an incoming rigidbody message.
 
 ### QuarternionToEuler.iua
 
