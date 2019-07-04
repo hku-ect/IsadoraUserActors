@@ -35,8 +35,8 @@ The actor will now "learn" what the minimal and maximum values are that it recei
 ### OSC kinect XYZ
 
 This actor is used to receive OSC data with XYZ position values when a Kinect is connected via NiMate (https://ni-mate.com/download/)
-It is built as in shown in the tutorial bij Monty Martin (https://www.youtube.com/watch?v=AIZWkUs2bGA&feature=youtu.be&t=219)
-Change the channel value in (upperleft) to match the value of the bodypart labeld in the Stream Setup.
+It is built as shown in the tutorial bij Monty Martin (https://www.youtube.com/watch?v=AIZWkUs2bGA&feature=youtu.be&t=219)
+Change the channel value (upperleft) to match the value of the bodypart labeld in the Stream Setup.
 
 ### MovingHead_OSC_ECT_ion.iua
 
