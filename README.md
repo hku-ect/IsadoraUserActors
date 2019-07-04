@@ -32,6 +32,12 @@ Use this actor to use a [Korg Nano Controller](http://www.korg.com/us/products/c
 This user actor is based on a Limit-Scale actor with the ability to "learn" the actor what the minimal and maximum values are for the incoming values. Connect the incoming data (for instance a sensor) to the `Live-value` input and set `Learn` input to `on` and toggle the `reset` input.
 The actor will now "learn" what the minimal and maximum values are that it receives and wil map these to the range you set with `out min` and `out max`. The `Min Hold` and `Max Hold` outputs show the range of the `Live-value` input.
 
+### OSC kinect XYZ
+
+This actor is used to receive OSC data with XYZ position values when a Kinect is connected via NiMate (https://ni-mate.com/download/)
+It is built as in shown in the tutorial bij Monty Martin (https://www.youtube.com/watch?v=AIZWkUs2bGA&feature=youtu.be&t=219)
+Change the channel value in (upperleft) to match the value of the bodypart labeld in the Stream Setup.
+
 ### MovingHead_OSC_ECT_ion.iua
 
 This user actor is used to connect with a [ECT ION](http://www.etcconnect.com/Products/Consoles/Eos-Family/Ion/Features.aspx) over OSC to control [Briteq Movingheads](https://briteq-lighting.com/bt-w19l10-zoom) with Isadora.
