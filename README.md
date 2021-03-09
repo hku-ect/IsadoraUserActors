@@ -60,3 +60,7 @@ This user actor is made to use together with the [NATNET2OSC bridge](https://git
 ### Recieve Rigidbody.iua
 
 This user actor is a comibnation of the Multi OSC listenr.iua and the QuarternionToEuler.iua. It will recieve an OSC message from the [NATNET2OSC bridge](https://github.com/hku-ect/NatNet2OSCbridge) and already converts the incoming Quarternion to Euler angles.
+
+### RadiusCheck.iua3
+
+This user actor checks position A to Position B and returns distance to center, enter radius, exit radius and percentage from radius (100%) to center (0%)
