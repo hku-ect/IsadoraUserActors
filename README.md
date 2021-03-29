@@ -5,7 +5,7 @@ A collection of useful Isadora User Actors
 
 The DMX light actors are meant to be used in conjunction with a laptop running [QLC+](http://www.qlcplus.org/) listening to OSC together with a USB to DMX controller such as the [Enttec DMX USB PRO](https://www.enttec.com/eu/products/controls/dmx-usb/dmx-usb-pro/)
 
-The `Midi Channel` input is the OSC channel the light has in QLC+ and is a remnant of the time we worked with QLC and MIDI. For example `Midi Channel` 10 means that the fixture in QLC+ will listen to a OSC message with the label `/10` and a value between 0.0 - 1.0.
+The `Midi Channel` input is the OSC channel the light has in QLC+ and is a remnant of the time we worked with QLC and MIDI. For example `Midi Channel` 10 means that the fixture in QLC+ will listen to a OSC message with the label `/10` and a value between 0.0 - 1.0. The standard 'port' QLC listens to is 7700. 
 
 #### Control Fresnel+.iua
 
